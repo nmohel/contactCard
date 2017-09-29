@@ -14,10 +14,11 @@ $(document).ready(function () {
                 </div>
             `
         );
-        $("#cardsContainer").on("click", ".card", function () {
-            let description = $(this).attr("my-description");
-            $(this).children(".card-body").html(`<p class="card-text">${description}</p>`);
-
-        })
+        $('form').find("input, textarea").val("");
     });
+    $("#cardsContainer").on("click", ".card", function () {
+        let description = $(this).attr("my-description");
+        $(this).children(".card-body").html(`<p class="card-text">${description}</p>`);
+
+    })
 });

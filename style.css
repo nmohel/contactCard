@@ -1,6 +1,15 @@
 .card {
     width: 300px;
+    height: 150px;
+    margin-bottom: 30px;
 }
 .card-title, .card-subtitle {
     text-align: center;
+}
+.card-body {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.container-fluid {
+    padding: 30px;
 }
